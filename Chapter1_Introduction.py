@@ -17,13 +17,13 @@ from sklearn.datasets import load_iris
 
 iris_dataset = load_iris()
 
-print("Keys of iris_dataset: {}".format(iris_dataset.keys()) + "\n...")
+#print("Keys of iris_dataset: {}".format(iris_dataset.keys()) + "\n...")
 
-print(" {}".format(iris_dataset['target_names']) + "\n...")
+#print(" {}".format(iris_dataset['target_names']) + "\n...")
 
-print("Shape of data: {}".format(iris_dataset['data'].shape))
+#print("Shape of data: {}".format(iris_dataset['data'].shape))
 
-print("Shape of data: {}".format(iris_dataset['target'].shape))
+#print("Shape of data: {}".format(iris_dataset['target'].shape))
 
-print("Shape of data: {}".format(iris_dataset['target']))
+#print("Shape of data: {}".format(iris_dataset['target']))
 
